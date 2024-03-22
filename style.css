@@ -1,6 +1,16 @@
 .nav-color{
     background-color: #1D2625;
 }
-.input-focus{
-    outline: none;
+.section-1{
+    margin-top: 5%;
+}
+.top-head{
+    letter-spacing: 1.8;
+}
+.con-for-table,
+.form-sec{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-sec{
+    border-radius: 10px;
 }
