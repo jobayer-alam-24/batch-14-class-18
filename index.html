@@ -74,11 +74,30 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                    <button class="btn btn-outline-warning" type="button" data-bs-toggle="modal" data-bs-target="#hacked">Search</button>
                 </form>
             </div>
         </div>
     </nav>
+
+    <div class="modal fade modal-fullscreen bg-danger" id="hacked" tabindex="-1" aria-labelledby="hacked" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-warning">
+            <div class="modal-header bg-success text-white">
+              <h1 class="modal-title fs-5" id="hacked">System is Hacked!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Hacked
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-warning text-white" data-bs-dismiss="modal">Danger</button>
+              <button type="button" class="btn btn-primary">Pay to return your system..</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     <section class="section-1">
         <div class="container">
             <h2 class="text-center text-warning my-5 top-head">DATABASE TABLE</h2>
